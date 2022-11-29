@@ -1,6 +1,7 @@
 /*imports*/
 @import url("./vendor/index.css");
 @import url("./blocks/style.css");
+
 /*fonts*/
 .font-container_font_inter {
   font-family: "Inter", Arial, sans-serif;

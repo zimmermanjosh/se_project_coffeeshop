@@ -15,8 +15,8 @@
     <meta name="twitter:site" content="@practicum" />
     <meta name="facebook:site" content="@practicum" />
 
-    <!--/styles/normalize.css-->
-    <!--link rel="stylesheet" href="./vendor/normalize.css"  handled in index.css/-->
+    <!--/styles/normalize.css  handled in index.css/-->
+    <link rel="stylesheet" href="./vendor/normalize.css" />
     <!--fonts.google.com-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,60 +35,65 @@
       <header class="header">
         <nav class="nav">
           <img
-            src="./images/logo.png"
-            alt="Practicum Library Logo"
+            src="./images/inside_coffee_shop.png"
+            alt="Practicum Coffee Logo"
             class="logo"
           />
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a href="#staff" class="nav__link">Staff picks</a>
+              <a href="#Menu" class="nav__link">Menu</a>
             </li>
             <li>
-              <a href="#events" class="nav__link">Events</a>
+              <a href="#Recipes" class="nav__link">Recipes</a>
             </li>
             <li>
-              <a href="#membership" class="nav__link">Become a member</a>
+              <a href="#Reservation" class="nav__link">Book a table</a>
             </li>
             <li>
-              <a href="#about" class="nav__link">About</a>
+              <a href="#About" class="nav__link">About</a>
             </li>
             <li>
-              <a href="#contact" class="nav__link">Contacts</a>
+              <a href="#Contacts" class="nav__link">Contacts</a>
             </li>
-            <!--<li>
-                <a href="#footer" class="nav__link">Footer</a>
-              </li> -->
-          </ul>
+            </ul>
         </nav>
-        <h1 class="header__title">Welcome to the Practicum Library</h1>
-        <p class="header__description">
-          We're pleased to open our library doors to everyone! Come and expand
-          your development knowledge, or just use this lovely spot to work or
-          study. This is a cool place for cool students!
-        </p>
+        <span>
+          <h1 class="header__title">
+          <span class = "header__title_span-accent">Specialty coffee</span>
+          in the Practicum Library
+          <p class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you and
+            the cozy vibes to help you get creative!
+          </p>
         <img
-          src="./images/inside_the_library.png"
-          alt="Illustration 'Inside the library'"
+          src="./images/inside_coffee_shop.png"
+          alt="coffee shop"
           class="header__image"
         />
         <div class="header__footer">
-          <a href="#about" class="header__link">About the library &darr;</a>
-          <p class="header__address">
-            200 Success Avenue, The Town of Practicum
-          </p>
+        <div class = "header__footer_wrapper">
+          <p class = "header__footer_paragraph"> Hours: </p>
+          <p class = "header__footer_paragraph"> Monday – Friday (10:00 – 19:00) </p>
+          <p class = "header__footer_paragraph"> Saturday – Sunday (11:00 – 18:00) </p>
+        </div>
+        </div>
+          <p class = "header__footer_paragraph">  200 Success Avenue, The Town of Practicum </p>
         </div>
       </header>
 
       <main class="content">
-        <section id="staff" class="staff">
-          <h2 class="staff__title">Staff picks</h2>
-          <p class="staff__subtitle">That our readers love</p>
+        <section id="menu" class="menu">
+          <h2 class="menu__title">menu</h2>
+          <p class="menu__subtitle">
+            We brew our coffee from locally roasted, Fairtrade certified beans
+            and use biodegradable cups. All teas from our selection are $2 /cup
+          </p>
           <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
-          <ul class="staff__content-formatting">
+          <ul class="menu__content-formatting">
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">Introduction to Algorithms</h3>
+                <h3 class="card__title">Filter</h3>
                 <p class="card__text">
                   The name of this book is self-explanatory; it's a proper
                   introduction to algorithms! Introduction to Algorithms, or
@@ -105,9 +110,7 @@
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  The Structure and Interpretation of Computer Programs (SICP)
-                </h3>
+                <h3 class="card__title">Espresso</h3>
                 <p class="card__text">
                   This is one of the best books for learning the fundamentals of
                   programming. Featured by MIT in one of their foundational
@@ -123,10 +126,7 @@
 
             <li class="card">
               <div class="card__content">
-                <h3 class="card__title">
-                  The Clean Coder: A Code of Conduct for Professional
-                  Programmers
-                </h3>
+                <h3 class="card__title">Baked Goods</h3>
                 <p class="card__text">
                   Compiled by seasoned software engineer and author Robert C.
                   Martin (also known as Uncle Bob), this book covers the
@@ -137,33 +137,18 @@
                 <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
-
-            <li class="card">
-              <div class="card__content">
-                <h3 class="card__title">
-                  Code Complete: A Practical Handbook of Software Construction
-                </h3>
-                <p class="card__text">
-                  Want to know how to write robust code irrespective of the
-                  architecture behind your chosen programming language? Then
-                  consider reading Code Complete: A Practical Handbook of
-                  Software Construction. It comprehensively covers everything
-                  related to good code structure.
-                </p>
-                <p class="card__footer">Steve McConnell</p>
-              </div>
-            </li>
           </ul>
         </section>
-        <section id="events" class="events">
-          <div class="events__content">
-            <h2 class="events__heading">Upcoming events:</h2>
-            <h3 class="events__title">
-              In honor of Joan Feynman: Women in astrophysics
+        <section id="recipes" class="recipes">
+          <div class="recipes__content">
+            <h2 class="recipes__heading">Recipes</h2>
+            <h3 class="recipes__title">
+              Checkout some recipes we have collected for the home brewing
+              experience
             </h3>
-            <div class="event-info events__info-section">
+            <div class="event-info recipes__info-section">
               <div class="event-info__item">
-                <div class="event-info__icon event-info__icon_type_calendar">
+                <div class="event-info__icon event-info__icon-type-calendar">
                   <img
                     src="./images/icon_calendar.svg"
                     alt="icon calendar"
@@ -185,7 +170,7 @@
                 </p>
               </div>
             </div>
-            <p class="events__description">
+            <p class="recipes__description">
               At this event, which celebrates the library's namesake, our guest
               lecturer will take us on a journey exploring some of the most
               prominent female researchers in the world of space science. It's
@@ -194,12 +179,12 @@
               prove that this hasn't been the case since at least the 18th
               century.
             </p>
-            <a href="#" class="events__more">More events &rarr;</a>
+            <a href="#" class="recipes__more">recipes &rarr;</a>
           </div>
           <!-- Start creating the composition here -->
-          <div class="events__cover">
+          <div class="recipes__cover">
             <img
-              class="events__image"
+              class="recipes__image"
               src="./images/cafe.png"
               alt="Illustration of cafe"
             />
@@ -245,9 +230,9 @@
             </div>
           </div>
         </section>
-        <section id="membership" class="membership">
-          <h2 class="membership__title">Becoming a library member is easy!</h2>
-          <ul class="membership__steps">
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Becoming a library member is easy!</h2>
+          <ul class="reservation__steps">
             <li class="step">
               <h3 class="step__title">
                 Step 1
@@ -258,7 +243,7 @@
                 />
               </h3>
               <p class="step__description">
-                Fill out the membership form online or in person.
+                Fill out the reservation form online or in person.
               </p>
             </li>
             <li class="step">
@@ -295,7 +280,7 @@
                 />
               </h3>
               <p class="step__description">
-                Enjoy all the awesome benefits of membership!
+                Enjoy all the awesome benefits of reservation!
               </p>
             </li>
           </ul>

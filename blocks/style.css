@@ -17,6 +17,10 @@
   padding-right: 80px;
   position: relative;
   box-sizing: border-box;
+  background-color: #ffffff;
+  background-image: url("./images/background_header.svg");
+  background-size: cover;
+  background-position: center;
 }
 
 .nav {
@@ -47,10 +51,8 @@
 }
 
 .nav__link:hover {
-  color: #1f69c9;
+  transition: ease-in, #2f80ed, 1s;
 }
-
-/* Add the hover state styles for .nav__link here */
 
 .header__title {
   max-width: 544px;
@@ -93,8 +95,6 @@
   text-decoration: none;
 }
 
-/* Add the hover state styles for .header__link here */
-
 .header__link:hover {
   color: #1f69c9;
 }
@@ -104,20 +104,20 @@
   color: #838383;
 }
 
-.staff {
+.menu {
   padding-top: 100px;
   padding-bottom: 140px;
   background-color: #f2f2f2;
 }
 
-.staff__title {
+.menu__title {
   text-align: center;
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
 }
 
-.staff__subtitle {
+.menu__subtitle {
   text-align: center;
   font-size: 20px;
   line-height: 30px;
@@ -126,7 +126,7 @@
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-.staff__content-formatting {
+.menu__content-formatting {
   max-width: 760px;
   margin: auto;
   display: flex;
@@ -182,7 +182,7 @@
   margin-top: auto;
 }
 
-.events {
+.recipes {
   padding: 100px 0 120px 80px;
   display: flex;
   align-items: start;
@@ -190,25 +190,25 @@
   box-sizing: border-box;
 }
 
-.events__content {
+.recipes__content {
   flex-basis: 580px;
 }
 
-.events__heading {
+.recipes__heading {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   margin: 0;
 }
 
-.events__title {
+.recipes__title {
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
   margin: 32px 0;
 }
 
-.events__info-section {
+.recipes__info-section {
   margin-top: 32px;
 }
 
@@ -242,22 +242,22 @@
   margin: 0;
 }
 
-.events__description {
+.recipes__description {
   margin: 40px 0 60px;
 }
 
-.events__more {
+.recipes__more {
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
 }
-.events__more:hover {
+.recipes__more:hover {
   color: #1f69c9;
 }
 
-/* Add the hover state styles for .events__more here */
+/* Add the hover state styles for .recipes__more here */
 
-.events__cover {
+.recipes__cover {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
@@ -266,7 +266,7 @@
   /*border: 1px solid red;*/
 }
 
-.events__image {
+.recipes__image {
   max-width: 100%;
 }
 
@@ -330,13 +330,13 @@
   margin: 0;
 }
 
-.membership {
+.reservations {
   padding-top: 100px;
   padding-bottom: 140px;
   background-color: #f2f2f2;
 }
 
-.membership__title {
+.reservations__title {
   max-width: 574px;
   margin: 0 auto;
   text-align: center;
@@ -345,7 +345,7 @@
   line-height: 52px;
 }
 
-.membership__steps {
+.reservations__steps {
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
