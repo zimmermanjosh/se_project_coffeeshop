@@ -1,0 +1,13 @@
+/*imports*/
+@import url("./vendor/index.css");
+@import url("./blocks/style.css");
+
+/*fonts*/
+.font-container_font_inter {
+  font-family: "Inter", Arial, sans-serif;
+}
+.font-container_font_noto {
+  font-family: "Noto Serif", Times New Roman, serif;
+}
+
+/*blocks*/
