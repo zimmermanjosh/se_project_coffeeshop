@@ -5,7 +5,6 @@
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  align-content: center;
 }
 
 .logo {
@@ -14,24 +13,29 @@
 }
 
 .header__title {
+  display: flex;
+  top: 202px;
+  left: 80px;
+  color: #000000;
   max-width: 729px;
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
-  margin: 150px 0 0;
-  font-family: Noto serif;
-  font-style: italic;
-  font-weight: normal;
+  margin: 202px 0 90;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500l;
   font-size: 60px;
   line-height: 72px;
 }
 
 .header__description {
+  display: flex;
+  position: relative;
   max-width: 638px;
-  padding-left: 80px;
+  left: 80px;
   font-size: 20px;
   line-height: 30px;
-  margin: 32px 0 0;
   font-family: Noto serif;
   font-style: normal;
   font-weight: normal;
@@ -40,22 +44,21 @@
 }
 
 .header__image {
-  /* Write styles here */
+  display: flex;
   position: absolute;
-  top: 135px;
-  right: 20px;
-  max-width: 636px;
-  z-index: 1;
+  top: 124px;
+  right: 5px;
+  width: 636px;
+  height: 568px;
 }
 
 .header__footer {
+  display: flex;
   position: absolute;
   left: 0;
   bottom: 40px;
   width: 100%;
   display: flex;
-  align-items: center;
-  padding: 40px 80px 0;
   justify-content: space-between;
   box-sizing: border-box;
 }
@@ -69,11 +72,6 @@
   color: #1f69c9;
 }
 
-.header__address {
-  margin: 0;
-  color: #838383;
-}
-
 .header__title_span-accent {
   font-family: Noto Serif, "Times New Roman", serif;
   font-style: italic;
@@ -84,18 +82,21 @@
 }
 
 .header__paragraph {
-  font-family: Inter;
+  color: rgb(64, 64, 64);
+  font-family: "Inter";
   font-style: normal;
+  align-self: flex-end;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20 px;
+  margin: 0;
+  position: relative;
+  right: 80;
 }
 
 .header {
   height: 100vh;
   min-height: 720px;
-  max-height: 800px;
-  max-width: 729px;
   max-height: 800px;
   position: relative;
   z-index: 1;
@@ -104,6 +105,7 @@
   background-image: url("./images/background_header.svg");
   background-size: cover;
   background-position: center;
+  background-repeat: none;
 }
 
 .nav {
@@ -137,47 +139,45 @@
 }
 
 .menu {
-  padding-top: 100px;
-  padding-bottom: 140px;
-  background-color: #f2f2f2;
+  background: #0a2750 url("./images/background_menu.svg") no-repeat / cover;
 }
 
 .menu__title {
-  text-align: center;
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 0 24px;
+  color: white;
+  max-width: 780px;
+  justify-content: center;
+  padding-bottom: 24px;
+  padding-top: 100px;
+  margin: 0 auto;
 }
 
 .menu__subtitle {
-  text-align: center;
+  font-family: Noto Serif;
+  font-style: normal;
+  text-align: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 780px;
+  color: rgb(254, 254, 254);
   font-weight: 400;
-  margin: 24px 0 0;
-}
-
-.menu__content-formatting {
-  max-width: 760px;
+  text-align: center;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-
-  padding-top: 68px;
-  padding-left: 0px;
-  list-style: none;
-  gap: 40px;
+  padding-bottom: 100px;
 }
 
-.card {
-  width: 360px;
-  height: 420px;
-  background-color: #ffffff;
-  border-radius: 6px;
-  padding: 32px 40px 20px 32px;
-  box-sizing: border-box;
+.menu_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 100px;
+  row-gap: 100px;
 }
 
 .card__content {

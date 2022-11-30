@@ -80,32 +80,50 @@
           <p class = "header__paragraph">  200 Success Avenue, The Town of Practicum </p>
       </header>
        <main class="content">
-        <section id="menu" class="Menu">
+        <section id="Menu" class="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew our coffee from locally roasted, Fairtrade certified beans
             and use biodegradable cups. All teas from our selection are $2 /cup
           </p>
-          <ul class="menu__content-formatting">
-            <li class="card">
-              <div class="card__content">
-                <h3 class="card__title">Filter</h3>
-                <p class="card__text">
-                  The name of this book is self-explanatory; it's a proper
-                  introduction to algorithms! Introduction to Algorithms, or
-                  CLRS, in reference to the authors' last names, goes in-depth
-                  and covers a range of algorithms across several self-contained
-                  chapters.
-                </p>
-                <p class="card__footer">
-                  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
-                  Clifford Stein
-                </p>
-              </div>
-            </li>
-          </ul>
+        <div class="menu__cards">
+        <div class="card">
+        <h3 class="card__title"> Filter</h3>
+        <ul class="card__list">
+          <li class="card__list-item"> Regular (12oz) <span class="card__list-divider"></span>$1</li>
+          <li class="card__list-item"> Large (16oz) <span class="card__list-divider"></span>$1.25</li>
+          <li class="card__list-item"> X-Large (18oz) <span class="card__list-divider"></span>$1.50</li>
+
+          <li class="card__list-item"> Party-Sized (24oz, decaf) <span class="card__list-divider"></span>$1.75</li>
+          <li class="card__list-item"> Iced-Coffee (16oz) <span class="card__list-divider"></span>$1.25</li>
+        </ul>
+        </div>
+        <div class="card">
+        <h3 class="card__title"> Espresso</h3>
+        <ul class="card__list">
+          <li class="card__list-item"> machiato <span class="card__list-divider"></span>$2.25</li>
+          <li class="card__list-item"> cortado <span class="card__list-divider"></span>$2.50</li>
+          <li class="card__list-item"> mocha <span class="card__list-divider"></span>$3.00</li>
+
+          <li class="card__list-item"> sun rise in the bay area (decaf) <span class="card__list-divider"></span>$10.75</li>
+
+        </ul>
+        </div>
+        <div class="card">
+        <h3 class="card__title"> Baked Goods</h3>
+        <ul class="card__list">
+          <li class="card__list-item"> Almond Crossiant <span class="card__list-divider"></span>$2</li>
+          <li class="card__list-item"> Bannana Bread <span class="card__list-divider"></span>$1.75</li>
+          <li class="card__list-item"> Key Lime Pie <span class="card__list-divider"></span>$3.00</li>
+
+          <li class="card__list-item"> Blue Velvet Cake (say what??) <span class="card__list-divider"></span>$3.75</li>
+          <li class="card__list-item"> Web Cookie <span class="card__list-divider"></span>$2.00</li>
+          <li class="card__list-item"> Fresh Bagguette <span class="card__list-divider"></span>$.25</li>
+        </ul>
+        </div>
+        </div>
         </section>
-        <section id="recipes" class="recipes">
+        <section id="Recipes" class="recipes">
           <div class="recipes__content">
             <h2 class="recipes__heading">Recipes</h2>
             <h3 class="recipes__title">
@@ -196,7 +214,7 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation">
+        <section id="Reservation" class="reservation">
           <h2 class="reservation__title">Becoming a library member is easy!</h2>
           <ul class="reservation__steps">
             <li class="step">
@@ -251,29 +269,6 @@
             </li>
           </ul>
         </section>
-        <section id="about" class="about">
-          <h2 class="about__title">About the library</h2>
-          <div class="about__content">
-            <p class="about__paragraph">
-              Libraries are essential establishments in practically every city,
-              and Practicum's library is no exception. It first opened its doors
-              way back in 2018, right as our humble town began bidding welcome
-              to its very first citizens!
-            </p>
-            <p class="about__paragraph">
-              Since its initial opening, the library has seen nearly 342
-              visitors each month. That's almost 50% of our population! So far,
-              most citizens have enjoyed reading books and making use of our
-              ample online resources.
-            </p>
-            <p class="about__paragraph">
-              The library gets its name from Joan Feynman, an American
-              astrophysicist and the first woman to be elected as an officer of
-              the American Geophysical Union.
-            </p>
-          </div>
-          <div class="about__circle"></div>
-        </section>
       </main>
       <footer class="footer" id="contact">
         <div class="footer__columns">
@@ -284,40 +279,7 @@
               class="footer__logo"
             />
           </div>
-          <div class="footer__column footer__column_content_hours">
-            <h4 class="footer__column-heading">Hours</h4>
-            <ul class="footer__list">
-              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
-              <li class="footer__list-item">Weekends: 10am - 6pm</li>
-            </ul>
-          </div>
-          <div class="footer__column footer__column_content_social">
-            <h4 class="footer__column-heading">social media</h4>
-            <ul class="footer__list">
-              <li class="footer__list-item">
-                <a href="#" class="footer__column-link">
-                  <img
-                    src="./images/facebook_white.svg"
-                    alt="facebook-logo"
-                    class="footer__social-icon"
-                  />
-                  facebook
-                </a>
-              </li>
-              <li class="footer__list-item">
-                <a href="#" class="footer__column-link">
-                  <img
-                    src="./images/instagram_white.svg"
-                    alt="instagram-logo"
-                    class="footer__social-icon"
-                  />
-                  instagram
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
-        <!-- The time to mark up the footer has come, you can do it 💪 -->
         <p class="footer__copyright">© 2022 Joshua Zimmerman</p>
       </footer>
     </div>
