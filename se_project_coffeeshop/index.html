@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The_HUB_coffeeshop</title>
+    <meta
+      name="description"
+      content="Practicum's new premier coffeshop website.
+    this is a clean, new, fresh, upscale coffeshop website."
+      keywords=" south american, locally sourced, sustainable, public, coffee"
+      author="joshua b zimmerman"
+    />
+    <meta name="twitter:site" content="@practicum" />
+    <meta name="facebook:site" content="@practicum" />
+
+    <!--/styles/normalize.css  handled in index.css/-->
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <!--fonts.google.com-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <!--/styles/style.css-->
+    <link rel="stylesheet" href="./pages/index.css" />
+    <!--/favicon.ico-->
+    <link rel="favicon" href="./favicon.ico" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Practicum Coffee Logo"
+            class="logo"
+          />
+          <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
+          <ul class="nav__links">
+            <li>
+              <a href="#Menu" class="nav__link">Menu</a>
+            </li>
+            <li>
+              <a href="#Recipes" class="nav__link">Recipes</a>
+            </li>
+            <li>
+              <a href="#Reservation" class="nav__link">Book a table</a>
+            </li>
+            <li>
+              <a href="#About" class="nav__link">About</a>
+            </li>
+            <li>
+              <a href="#Contacts" class="nav__link">Contacts</a>
+            </li>
+            </ul>
+        </nav>
+        <span>
+          <h1 class="header__title">
+          <span class = "header__title_span-accent">Specialty coffee</span>
+          in the Practicum Library
+          <p class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you and
+            the cozy vibes to help you get creative!
+          </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="coffee shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+        <div class = "header__wrapper">
+          <p class = "header__paragraph"> Hours: </p>
+          <p class = "header__paragraph"> Monday – Friday (10:00 – 19:00) </p>
+          <p class = "header__paragraph"> Saturday – Sunday (11:00 – 18:00) </p>
+        </div>
+        </div>
+          <p class = "header__paragraph">  200 Success Avenue, The Town of Practicum </p>
+      </header>
+       <main class="content">
+        <section id="Menu" class="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            We brew our coffee from locally roasted, Fairtrade certified beans
+            and use biodegradable cups. All teas from our selection are $2 /cup
+          </p>
+        <div class="menu__cards">
+        <div class="card">
+        <h3 class="card__title"> Filter</h3>
+        <ul class="card__list">
+          <li class="card__list-item"> Regular (12oz) <span class="card__list-divider"></span>$1</li>
+          <li class="card__list-item"> Large (16oz) <span class="card__list-divider"></span>$1.25</li>
+          <li class="card__list-item"> X-Large (18oz) <span class="card__list-divider"></span>$1.50</li>
+
+          <li class="card__list-item"> Party-Sized (24oz, decaf) <span class="card__list-divider"></span>$1.75</li>
+          <li class="card__list-item"> Iced-Coffee (16oz) <span class="card__list-divider"></span>$1.25</li>
+        </ul>
+        </div>
+        <div class="card">
+        <h3 class="card__title"> Espresso</h3>
+        <ul class="card__list">
+          <li class="card__list-item"> machiato <span class="card__list-divider"></span>$2.25</li>
+          <li class="card__list-item"> cortado <span class="card__list-divider"></span>$2.50</li>
+          <li class="card__list-item"> mocha <span class="card__list-divider"></span>$3.00</li>
+
+          <li class="card__list-item"> sun rise in the bay area (decaf) <span class="card__list-divider"></span>$10.75</li>
+
+        </ul>
+        </div>
+        <div class="card">
+        <h3 class="card__title"> Baked Goods</h3>
+        <ul class="card__list">
+          <li class="card__list-item"> Almond Crossiant <span class="card__list-divider"></span>$2</li>
+          <li class="card__list-item"> Bannana Bread <span class="card__list-divider"></span>$1.75</li>
+          <li class="card__list-item"> Key Lime Pie <span class="card__list-divider"></span>$3.00</li>
+
+          <li class="card__list-item"> Blue Velvet Cake (say what??) <span class="card__list-divider"></span>$3.75</li>
+          <li class="card__list-item"> Web Cookie <span class="card__list-divider"></span>$2.00</li>
+          <li class="card__list-item"> Fresh Bagguette <span class="card__list-divider"></span>$.25</li>
+        </ul>
+        </div>
+        </div>
+        </section>
+        <section id="Recipes" class="recipes">
+          <div class="recipes__content">
+            <h2 class="recipes__heading">Recipes</h2>
+            <h3 class="recipes__title">
+              Checkout some recipes we have collected for the home brewing
+              experience
+            </h3>
+            <div class="event-info recipes__info-section">
+              <div class="event-info__item">
+                <div class="event-info__icon event-info__icon-type-calendar">
+                  <img
+                    src="./images/icon_calendar.svg"
+                    alt="icon calendar"
+                    class="event-info__icon"
+                  />
+                </div>
+                <p class="event-info__text">Mon, January 12</p>
+              </div>
+              <div class="event-info__item">
+                <div class="event-info__icon event-info__icon_type_pin">
+                  <img
+                    src="./images/icon_pin.svg"
+                    alt="icon pin"
+                    class="event-info__icon"
+                  />
+                </div>
+                <p class="event-info__text">
+                  Practicum Library Conference Hall & Online
+                </p>
+              </div>
+            </div>
+            <p class="recipes__description">
+              At this event, which celebrates the library's namesake, our guest
+              lecturer will take us on a journey exploring some of the most
+              prominent female researchers in the world of space science. It's
+              easy to buy into the misconception that this field was mostly
+              dominated by men, but our lecture aims to change that notion and
+              prove that this hasn't been the case since at least the 18th
+              century.
+            </p>
+            <a href="#" class="recipes__more">recipes &rarr;</a>
+          </div>
+          <!-- Start creating the composition here -->
+          <div class="recipes__cover">
+            <img
+              class="recipes__image"
+              src="./images/cafe.png"
+              alt="Illustration of cafe"
+            />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                class="person__image person__image_size_l"
+                src="./images/person_feynman.png"
+                alt="Joan Feynman"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margret Burbidge</p>
+              <img
+                class="pperson__image person__image_size_m"
+                src="./images/person_burbidge.png"
+                alt="Margret Burbidge"
+              />
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                class="person__image person__image_size_m"
+                src="./images/person_tarter.png"
+                alt="Jill Tarter"
+              />
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                class="person__image person__image_size_s"
+                src="./images/person_mitchell.png"
+                alt="Maria Mitchell"
+              />
+              <p class="person__caption">Maria Mitchell</p>
+            </div>
+            <div class="person person_name_cannon">
+              <img
+                class="person__image person__image_size_s"
+                src="./images/person_cannon.png"
+                alt="Anne Jump Cannon"
+              />
+              <p class="person__caption">Anne Jump Cannon</p>
+            </div>
+          </div>
+        </section>
+        <section id="Reservation" class="reservation">
+          <h2 class="reservation__title">Becoming a library member is easy!</h2>
+          <ul class="reservation__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Step 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Fill out the reservation form online or in person.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Come pick up your library card at the front desk.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Sign the back of the card.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Enjoy all the awesome benefits of reservation!
+              </p>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer" id="contact">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="/images/logo_practicum.svg"
+              alt="logo-practicum"
+              class="footer__logo"
+            />
+          </div>
+        </div>
+        <p class="footer__copyright">© 2022 Joshua Zimmerman</p>
+      </footer>
+    </div>
+  </body>
+</html>
