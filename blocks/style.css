@@ -98,7 +98,8 @@
   max-width: 729px;
   max-height: 800px;
   position: relative;
-  box-sizing: border-box;
+  z-index: 1;
+  padding-right: px;
   background-color: #ffffff;
   background-image: url("./images/background_header.svg");
   background-size: cover;
@@ -156,7 +157,6 @@
   margin: 24px 0 0;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .menu__content-formatting {
   max-width: 760px;
   margin: auto;
@@ -164,7 +164,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /*top: -68px;*/
+
   padding-top: 68px;
   padding-left: 0px;
   list-style: none;
@@ -178,9 +178,6 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-  /* display: inline-block; */
-  /* height: 420px; */
-  /* bottom: 48px; */
 }
 
 .card__content {
@@ -208,8 +205,6 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
-  /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
 }
 
@@ -256,8 +251,6 @@
   color: #1f69c9;
 }
 
-/* Add the hover state styles for .recipes__more here */
-
 .recipes__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -286,14 +279,6 @@
   width: 24px;
 }
 
-.event-info__icon_type_calendar {
-  background-image: url(/images/icon_calendar.svg);
-}
-
-.event-info__icon_type_pin {
-  background-image: url(/images/icon_pin.svg);
-}
-
 .event-info__text {
   font-size: 20px;
   font-weight: 500;
@@ -307,52 +292,6 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-}
-
-.person_name_feynman {
-  /* Use correct values of top/right/bottom/left properties to position the element */
-  top: -30px;
-  left: 319px;
-}
-
-.person_name_burbidge {
-  /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 96px;
-  right: 125px;
-}
-
-.person_name_cannon {
-  /* Use correct values of top/right/bottom/left properties to position the element */
-  bottom: 18px;
-  right: 216px;
-}
-
-.person_name_mitchell {
-  /* Use correct values of top/right/bottom/left properties to position the element */
-  bottom: 82px;
-  left: 142px;
-}
-
-.person_name_tarter {
-  /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 79px;
-  left: 159px;
-}
-
-.person__image {
-  max-width: 100%;
-}
-
-.person__image_size_l {
-  width: 140px;
-}
-
-.person__image_size_m {
-  width: 100px;
-}
-
-.person__image_size_s {
-  width: 80px;
 }
 
 .person__caption {
@@ -430,7 +369,7 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  /* border: #f2f2f2 1px solid; */
+  border: yellow 1px solid;
 }
 
 .about__content {
