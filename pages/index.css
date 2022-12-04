@@ -1,6 +1,7 @@
 /*imports*/
-@import url("../vendor/index.css");
+@import url("../vendor/normalize.css");
 @import url("../blocks/about.css");
+@import url("../blocks/cards.css");
 @import url("../blocks/event.css");
 @import url("../blocks/footer.css");
 @import url("../blocks/header.css");
