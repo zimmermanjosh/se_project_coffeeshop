@@ -5,11 +5,7 @@
   position: relative;
   z-index: 1;
   padding-right: px;
-  background-color: #ffffff;
-  background-image: url("../images/background_header.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
+  background: #ffffff url(../images/background_header.svg) no-repeat / cover;
 }
 
 .header__title {
@@ -27,6 +23,15 @@
   font-weight: 500l;
   font-size: 60px;
   line-height: 72px;
+}
+
+.header__title_span-accent {
+  font-family: Noto Serif, Times New Roman, serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
 }
 
 .header__description {
@@ -72,18 +77,9 @@
   color: #1f69c9;
 }
 
-.header__title_span-accent {
-  font-family: Noto Serif, "Times New Roman", serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #2f80ed;
-}
-
 .header__paragraph {
   color: rgb(64, 64, 64);
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   align-self: flex-end;
   font-weight: 500;
