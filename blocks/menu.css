@@ -32,7 +32,7 @@
   padding-bottom: 100px;
 }
 
-.menu_cards {
+.menu__cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
