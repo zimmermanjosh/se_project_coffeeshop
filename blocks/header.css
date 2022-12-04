@@ -1,0 +1,95 @@
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  z-index: 1;
+  padding-right: px;
+  background-color: #ffffff;
+  background-image: url("./images/background_header.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+.header__title {
+  display: flex;
+  top: 202px;
+  left: 80px;
+  color: #000000;
+  max-width: 729px;
+  font-size: 66px;
+  line-height: 76px;
+  font-weight: 500;
+  margin: 202px 0 90;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500l;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__description {
+  display: flex;
+  position: relative;
+  max-width: 638px;
+  left: 80px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Noto serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  display: flex;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 636px;
+  height: 568px;
+}
+
+.header__footer {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
+}
+
+.header__title_span-accent {
+  font-family: Noto Serif, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__paragraph {
+  color: rgb(64, 64, 64);
+  font-family: "Inter";
+  font-style: normal;
+  align-self: flex-end;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20 px;
+  margin: 0;
+  position: relative;
+  right: 80;
+}

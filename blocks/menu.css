@@ -1,0 +1,42 @@
+.menu {
+  background: #0a2750 url("./images/background_menu.svg") no-repeat / cover;
+  padding-bottom: 100pc;
+}
+
+.menu__title {
+  display: flex;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: white;
+  max-width: 780px;
+  justify-content: center;
+  padding-bottom: 24px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.menu__subtitle {
+  font-family: Noto Serif;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 780px;
+  color: rgb(254, 254, 254);
+  font-weight: normal;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.menu_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 100px;
+  row-gap: 100px;
+}
