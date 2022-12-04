@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  border: yellow 1px solid;
+  /* border: yellow 1px solid;*/
 }
 
 .about__title {
@@ -15,14 +15,14 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  border: yellow 1px solid;
+  /* border: yellow 1px solid;*/
 }
 
 .about__content {
   font-family: Inter, Arial, Helvetica, sans-serif;
   flex-flow: column wrap;
   max-width: 660px;
-  border: yellow 1px solid;
+  /* border: yellow 1px solid;*/
   display: flex;
   margin-left: auto;
 }
