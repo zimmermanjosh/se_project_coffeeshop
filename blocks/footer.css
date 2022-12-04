@@ -1,3 +1,5 @@
+/* footer items */
+
 .footer {
   box-sizing: border-box;
   color: #ffffff;
@@ -19,6 +21,7 @@
   align-items: flex-start;
 }
 
+/*list items */
 .footer__list {
   /* border: orange 1px solid;*/
   display: flex;
@@ -45,49 +48,11 @@
   padding: 0;
 }
 
+/* foooter social items */
+
 .footer__social {
   /* border: orange 1px solid;*/
   margin-left: 100px;
-}
-
-.footer__column_content_hours {
-  margin-left: auto;
-  /*/* border: orange 1px solid;*/
-}
-
-.footer__column_content_social {
-  margin-left: 100px;
-  /*/* border: orange 1px solid;*/
-}
-
-.footer__list {
-  /* The code below removes the default browser styles for lists */
-  list-style-type: none;
-  margin-left: auto;
-  padding: 0;
-  margin: 0;
-  /*/* border: orange 1px solid;*/
-}
-
-.footer__list-item {
-  /*/* border: orange 1px solid;*/
-  padding-bottom: 16px;
-}
-
-.footer__column-heading {
-  /*/* border: orange 1px solid;*/
-  margin: 0;
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-.footer__column-link {
-  /*/* border: orange 1px solid;*/
-  color: white;
-  font-size: 16px;
-  line-height: 20px;
-  text-decoration: none;
-  padding-left: 16px;
 }
 
 .footer__social-heading {
@@ -115,6 +80,7 @@ footer__social-link {
   display: flex;
   /* border: orange 1px solid;*/
 }
+
 .footer__social-link:hover {
   color: #c1c1c1;
   animation-duration: 0.3s;
