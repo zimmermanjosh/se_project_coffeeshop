@@ -1,3 +1,17 @@
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  z-index: 1;
+  padding-right: px;
+  background-color: #ffffff;
+  background-image: url("./images/background_header.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
 .header__title {
   display: flex;
   top: 202px;
@@ -78,18 +92,4 @@
   margin: 0;
   position: relative;
   right: 80;
-}
-
-.header {
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
-  position: relative;
-  z-index: 1;
-  padding-right: px;
-  background-color: #ffffff;
-  background-image: url("./images/background_header.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
 }
