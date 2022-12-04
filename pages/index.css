@@ -1,17 +1,17 @@
 /*imports*/
-@import url("./vendor/index.css");
-@import url("./blocks/about.css");
-@import url("./blocks/event.css");
-@import url("./blocks/footer.css");
-@import url("./blocks/header.css");
-@import url("./blocks/logo.css");
-@import url("./blocks/menu.css");
-@import url("./blocks/nav.css");
-@import url("./blocks/page.css");
-@import url("./blocks/person.css");
-@import url("./blocks/recipes.css");
-@import url("./blocks/reservations.css");
-@import url("./blocks/steps.css");
+@import url("../vendor/index.css");
+@import url("../blocks/about.css");
+@import url("../blocks/event.css");
+@import url("../blocks/footer.css");
+@import url("../blocks/header.css");
+@import url("../blocks/logo.css");
+@import url("../blocks/menu.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/page.css");
+@import url("../blocks/person.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/reservations.css");
+@import url("../blocks/steps.css");
 
 /*fonts*/
 .font-container_font_inter {
