@@ -19,7 +19,7 @@
 }
 
 .about__content {
-  family-font: Inter, Arial, Helvetica, sans-serif;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   flex-flow: column wrap;
   max-width: 660px;
   border: yellow 1px solid;
