@@ -8,6 +8,15 @@
   /* border: yellow 1px solid;*/
 }
 
+.about__content {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  flex-flow: column wrap;
+  max-width: 660px;
+  /* border: yellow 1px solid;*/
+  display: flex;
+  margin-left: auto;
+}
+
 .about__title {
   margin: 0;
   font-size: 20px;
@@ -18,22 +27,13 @@
   /* border: yellow 1px solid;*/
 }
 
-.about__content {
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  flex-flow: column wrap;
-  max-width: 660px;
-  /* border: yellow 1px solid;*/
-  display: flex;
-  margin-left: auto;
-}
-
 .about__paragraph {
   margin: 0;
   /* border: orange 1px solid; */
 }
 
 .about__circle {
-  font-family: Noto Serif, "Times New Roman", serif;
+  font-family: Noto Serif, Times New Roman, serif;
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
