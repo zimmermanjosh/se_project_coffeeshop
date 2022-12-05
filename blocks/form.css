@@ -40,10 +40,6 @@
   padding-left: 10px;
 }
 
-.form__input:last-child {
-  margin-bottom: 0px;
-}
-
 .form__button {
   font-family: Inter;
   font-style: normal;

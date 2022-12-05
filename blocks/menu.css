@@ -19,24 +19,24 @@
 }
 
 .menu__subtitle {
-  font-family: Noto Serif;
+  font-family: Noto Serif, "Times New Roman", Times, serif;
   font-style: normal;
-  text-align: center;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 780px;
   color: rgb(254, 254, 254);
-  font-weight: normal;
-  text-align: center;
   margin: auto;
+  text-align: center;
   padding-bottom: 100px;
 }
 
-.menu__cards {
+.menu__card {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  column-gap: 100px;
   row-gap: 100px;
+  column-gap: 100px;
+  row-gap: 0px 100px 0px 100px;
 }

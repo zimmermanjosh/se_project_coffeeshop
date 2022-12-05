@@ -8,6 +8,15 @@
   /* border: yellow 1px solid;*/
 }
 
+.about__content {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  flex-flow: column wrap;
+  max-width: 660px;
+  /* border: yellow 1px solid;*/
+  display: flex;
+  margin-left: auto;
+}
+
 .about__title {
   margin: 0;
   font-size: 20px;
@@ -16,15 +25,6 @@
   font-weight: 500;
   z-index: 1;
   /* border: yellow 1px solid;*/
-}
-
-.about__content {
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  flex-flow: column wrap;
-  max-width: 660px;
-  /* border: yellow 1px solid;*/
-  display: flex;
-  margin-left: auto;
 }
 
 .about__paragraph {

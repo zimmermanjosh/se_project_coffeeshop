@@ -30,12 +30,12 @@
   <body>
     <div class="page">
       <header class="header">
+        <img
+          src="./images/logo_coffee_shop.svg"
+          alt="Practicum Coffee Logo"
+          class="logo"
+        />
         <nav class="nav">
-          <img
-            src="./images/logo_coffee_shop.svg"
-            alt="Practicum Coffee Logo"
-            class="logo"
-          />
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
@@ -63,8 +63,11 @@
           Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative!
         </p>
-        <img src=./images/inside_coffee_shop.png alt="coffee shop"
-        class="header__image" />
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="coffee shop"
+          class="header__image"
+        />
         <div class="header__footer">
           <div class="header__wrapper">
             <p class="header__paragraph">Hours:</p>
@@ -76,6 +79,7 @@
           </p>
         </div>
       </header>
+
       <main class="content">
         <section id="menu" class="menu">
           <h2 class="menu__title">Menu</h2>
@@ -83,7 +87,8 @@
             We brew our coffee from locally roasted, Fairtrade certified beans
             and use biodegradable cups. All teas from our selection are $2 /cup
           </p>
-          <div class="menu__cards">
+
+          <div class="menu__card">
             <div class="card">
               <h3 class="card__title">Filter</h3>
               <ul class="card__list">
@@ -96,7 +101,6 @@
                 <li class="card__list-item">
                   X-Large (18oz) <span class="card__list-divider"></span>$1.50
                 </li>
-
                 <li class="card__list-item">
                   Party-Sized (24oz, decaf)
                   <span class="card__list-divider"></span>$1.75
@@ -153,7 +157,6 @@
             </div>
           </div>
         </section>
-
         <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
@@ -169,8 +172,6 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-captions"></p>
-
               <p class="recipes__video-caption">
                 <span>Aeropress Recipe</span>
                 <span>~5 min</span>
