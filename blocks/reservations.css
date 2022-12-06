@@ -1,7 +1,7 @@
 .reservation {
   background-color: #d9e7ff;
-  background: #d9e7ff url(../images/background_reservation.svg) no-repeat center /
-    cover;
+  background: #d9e7ff url("../images/background_reservation.svg") no-repeat
+    center / cover;
 }
 
 .reservation__title {

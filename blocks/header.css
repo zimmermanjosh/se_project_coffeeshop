@@ -38,7 +38,7 @@
 .header__description {
   display: flex;
   flex-direction: row;
-  max-width: 729px;
+  max-width: 683px;
   position: relative;
   z-index: 1;
   font-family: "Noto serif", "Times New Roman", "serif";
