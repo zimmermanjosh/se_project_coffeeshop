@@ -13,7 +13,6 @@
 }
 
 .header__title {
-  display: flex;
   max-width: 729px;
   color: #000000;
   margin: 202px 0 0 80px;
@@ -27,6 +26,7 @@
 }
 
 .header__span-accent {
+  display: block;
   font-family: "Noto Serif", "Times New Roman", "serif";
   font-style: italic;
   font-weight: normal;
@@ -43,7 +43,7 @@
   align-self: center;
   padding-left: 80px;
   z-index: 1;
-  font-family: "Noto serif", "Times New Roman", "serif";
+  font-family: "Noto Serif", "Times New Roman", "serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
