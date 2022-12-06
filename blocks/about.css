@@ -30,13 +30,13 @@
 
 .about__title {
   font-style: normal;
-  margin: 100px 0 0 80px;
-  color: #ffffff;
-  flex-flow: column wrap;
-  font-size: 44px;
-  max-width: 251px;
-  line-height: 52px;
   font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+  flex-flow: column wrap;
+  margin: 100px 0 0 80px;
+  max-width: 251px;
   z-index: 2;
   /* border: yellow 1px solid;*/
 }
@@ -51,6 +51,9 @@
   padding-bottom: 20px;
   margin: 0;
 }
+.about__paragraph:last-child {
+  padding-bottom: 0px;
+}
 
 .about__circle {
   border-radius: 50%;
@@ -61,10 +64,6 @@
   top: -152px;
   left: -129px;
   z-index: 0;
-}
-
-.about__paragraph:last-child {
-  padding-bottom: 0px;
 }
 
 .about__circle_animation_blurred {

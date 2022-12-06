@@ -26,16 +26,16 @@
   margin: 0;
 }
 
-.card__list-divider {
-  flex-grow: 1;
-  border-bottom: 1px solid #ffffff;
-}
-
 .card__list-item {
   display: flex;
   color: #ffffff;
   padding-bottom: 16px;
   margin: 0;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #ffffff;
 }
 
 .card__list-item:last-child {

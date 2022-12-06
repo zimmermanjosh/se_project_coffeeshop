@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.form-fieldset {
+.form__fieldset {
   display: flex;
   flex-direction: column;
   border: 0;
