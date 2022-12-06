@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   align-items: flex-end;
-  padding-right: 80px;
+  padding-top: 30px;
 }
 
 .nav__links {
