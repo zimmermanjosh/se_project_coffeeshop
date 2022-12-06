@@ -1,15 +1,12 @@
 .menu {
-  background-image: url("../images/background_menu.svg");
-  background-size: cover;
-  background-position: center;
-  background-color: #0a2750;
-  background-repeat: no-repeat;
+  background: #0a2750 url("../images/background_menu.svg") no-repeat center /
+    cover;
   padding-bottom: 100px;
 }
 
 .menu__title {
   display: flex;
-  font-family: "Inter", "Arial", "sans-serif";
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;

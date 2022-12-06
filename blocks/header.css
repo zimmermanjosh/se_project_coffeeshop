@@ -81,10 +81,6 @@
   text-decoration: none;
 }
 
-.header__link:hover {
-  color: #1f69c9;
-}
-
 .header__paragraph {
   color: #6f6f66;
   font-family: "Inter";
@@ -96,4 +92,8 @@
   margin: 0;
   position: relative;
   right: 80px;
+}
+
+.header__link:hover {
+  color: #1f69c9;
 }
