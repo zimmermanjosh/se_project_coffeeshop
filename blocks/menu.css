@@ -5,7 +5,6 @@
 }
 
 .menu__title {
-  display: flex;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -13,7 +12,7 @@
   line-height: 52px;
   color: white;
   max-width: 780px;
-  justify-content: center;
+  text-align: center;
   padding-bottom: 24px;
   padding-top: 100px;
   margin: 0 auto;
@@ -36,8 +35,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   row-gap: 100px;
   column-gap: 100px;
-  margin: 0 auto 100px;
+  margin: 0 auto 0;
 }
