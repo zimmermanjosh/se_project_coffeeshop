@@ -9,15 +9,5 @@
 @import url(../blocks/menu.css);
 @import url(../blocks/nav.css);
 @import url(../blocks/page.css);
-@import url(../blocks/person.css);
 @import url(../blocks/recipes.css);
-@import url(../blocks/reservations.css);
-
-/*fonts*/
-.font-container_font_inter {
-  font-family: "Inter", Arial, sans-serif;
-}
-.font-container_font_noto {
-  font-family: "Noto Serif", Times New Roman, serif;
-}
-/*blocks*/
+@import url(../blocks/reservation.css);
