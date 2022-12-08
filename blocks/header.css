@@ -27,7 +27,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: Noto Serif;
+  font-family: Noto serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -43,7 +43,7 @@
   align-self: center;
   padding-left: 80px;
   z-index: 1;
-  font-family: Noto Serif;
+  font-family: Noto serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
