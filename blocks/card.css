@@ -1,6 +1,6 @@
 .card {
-  width: 600px;
   margin: 0;
+  flex-basis: 600px;
 }
 
 .card__title {
