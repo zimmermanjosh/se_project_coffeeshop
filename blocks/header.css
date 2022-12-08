@@ -36,8 +36,6 @@
 }
 
 .header__description {
-  display: flex;
-  flex-direction: row;
   max-width: 683px;
   position: relative;
   align-self: center;
@@ -52,7 +50,6 @@
 }
 
 .header__image {
-  display: flex;
   position: absolute;
   width: 646px;
   height: 568px;
@@ -90,7 +87,6 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  position: relative;
   right: 80px;
 }
 
