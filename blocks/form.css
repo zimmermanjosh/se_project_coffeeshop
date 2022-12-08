@@ -11,6 +11,8 @@
   border: 0;
   padding: 0;
   width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .form__label {
@@ -71,7 +73,6 @@
   background-color: #2f80ed;
   background-image: url("../images/check.svg");
   border-radius: 2px;
-  position: relative;
   vertical-align: middle;
   margin-right: 12px;
 }
