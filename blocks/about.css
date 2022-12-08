@@ -20,8 +20,7 @@
 }
 
 .about__content {
-  font-family: "Inter", "Arial", "sans-serif";
-  flex-flow: column wrap;
+  font-family: Inter, Arial, sans-serif;
   max-width: 660px;
   /* border: yellow 1px solid;*/
   padding: 119px 80px 173px 0;
@@ -34,7 +33,6 @@
   font-size: 44px;
   line-height: 52px;
   color: #fff;
-  flex-flow: column wrap;
   margin: 100px 0 0 80px;
   max-width: 251px;
   z-index: 2;
