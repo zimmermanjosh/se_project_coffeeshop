@@ -59,18 +59,14 @@
 
 .header__footer {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   position: absolute;
   left: 0px;
   bottom: 40px;
   width: 100%;
-  box-sizing: border-box;
-}
-
-.header__hours {
-  position: relative;
-  left: 80px;
   padding-left: 80px;
+  padding-right: 160px;
+  box-sizing: border-box;
 }
 
 .header__link {
