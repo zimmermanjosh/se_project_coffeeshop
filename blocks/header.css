@@ -15,7 +15,7 @@
 .header__title {
   max-width: 729px;
   color: #000000;
-  margin: 202px 0 0 80px;
+  margin: 202px 0 28px 80px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -23,6 +23,7 @@
   line-height: 72px;
   position: relative;
   z-index: 2;
+
 }
 
 .header__span-accent {
@@ -61,11 +62,10 @@
   display: flex;
   justify-content:space-between;
   position: absolute;
-  left: 0px;
   bottom: 40px;
   width: 100%;
   padding-left: 80px;
-  padding-right: 160px;
+  padding-right: 80px;
   box-sizing: border-box;
 }
 
