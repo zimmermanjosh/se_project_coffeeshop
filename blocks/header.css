@@ -39,7 +39,6 @@
 .header__description {
   max-width: 683px;
   position: relative;
-  align-self: center;
   padding-left: 80px;
   z-index: 1;
   font-family: 'Noto serif', Times New Roman, serif;
@@ -66,6 +65,7 @@
   width: 100%;
   padding-left: 80px;
   padding-right: 80px;
+  left: 0px;
   box-sizing: border-box;
 }
 
@@ -83,7 +83,6 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  right: 80px;
 }
 
 .header__link:hover {
